@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name Atmel)(type Legacy)(uri ${KIPRJMOD}/Atmel.lib)(options "")(descr ""))
+  (lib (name Gameport)(type Legacy)(uri ${KIPRJMOD}/Gameport.lib)(options "")(descr ""))
+  (lib (name Tag-Connect)(type Legacy)(uri ${KIPRJMOD}/Tag-Connect.lib)(options "")(descr ""))
+  (lib (name USB)(type Legacy)(uri ${KIPRJMOD}/USB.lib)(options "")(descr ""))
+)

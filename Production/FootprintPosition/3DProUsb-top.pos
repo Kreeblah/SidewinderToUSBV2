@@ -1,0 +1,26 @@
+### Module positions - created on Friday, September 04, 2020 at 05:09:26 PM ###
+### Printed by Pcbnew version kicad (5.1.6-85-g2d1f6937d)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val           Package                                                 PosX       PosY       Rot  Side
+C1        1uF           C_0402_1005Metric                                    11.9380    28.4710   90.0000  top
+C2        1uF           C_0402_1005Metric                                    15.4940    28.4480   90.0000  top
+C3        0.1uF         C_0402_1005Metric                                    17.7800     8.1280  270.0000  top
+C4        0.1uF         C_0402_1005Metric                                    21.3360     8.1280  270.0000  top
+C5        0.1uF         C_0402_1005Metric                                    24.8920     8.1510  270.0000  top
+C6        0.1uF         C_0402_1005Metric                                    18.0340    30.9880   90.0000  top
+C7        10pF          C_0402_1005Metric                                    25.6540    11.9380    0.0000  top
+C8        10pF          C_0402_1005Metric                                    28.7020    14.2240    0.0000  top
+C9        1nF           C_0402_1005Metric                                    33.2740    23.8760   90.0000  top
+C10       1nF           C_0402_1005Metric                                    35.0520    20.5740  270.0000  top
+D1        LED           LED_0603_1608Metric                                  27.1780    20.5740  180.0000  top
+R1        22            R_0402_1005Metric                                     9.3980    21.5900  180.0000  top
+R2        22            R_0402_1005Metric                                    11.9150    23.1140  180.0000  top
+R3        1K            R_0402_1005Metric                                    29.6950    23.8760    0.0000  top
+R4        1K            R_0402_1005Metric                                    28.1940    17.5260   90.0000  top
+R5        2200          R_0402_1005Metric                                    37.5920    25.4000    0.0000  top
+R6        2200          R_0402_1005Metric                                    39.1160    21.0820    0.0000  top
+R7        220           R_1206_3216Metric                                    34.9220    16.5100    0.0000  top
+SW1       SW_Push_Dual  SW_SPST_Omron_B3FS-100xP                             35.5600     8.8900    0.0000  top
+X1        16MHz         Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm    22.2820    14.0360  180.0000  top
+## End
