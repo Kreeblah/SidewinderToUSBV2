@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 5)
+    (drawings 7)
     (tracks 311)
     (zones 0)
     (modules 32)
@@ -1362,6 +1362,12 @@
     )
   )
 
+  (gr_text A (at 90.678 86.106) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text K (at 94.742 86.106) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text "Board design by:\nKreeblah\nhttps://github.com/Kreeblah/SidewinderToUSBV2" (at 73.914 70.358) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)) (justify left))
   )
