@@ -1,4 +1,4 @@
-### Module positions - created on Friday, September 04, 2020 at 09:39:58 PM ###
+### Module positions - created on Saturday, September 12, 2020 at 06:20:47 PM ###
 ### Printed by Pcbnew version kicad (5.1.6-85-g2d1f6937d)
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -9,7 +9,7 @@ C3        0.1uF                   C_0402_1005Metric                             
 C4        0.1uF                   C_0402_1005Metric                                    21.3360     8.1280  270.0000  top
 C5        0.1uF                   C_0402_1005Metric                                    24.8920     8.1510  270.0000  top
 C6        0.1uF                   C_0402_1005Metric                                    18.0340    30.9880   90.0000  top
-C7        10pF                    C_0402_1005Metric                                    25.6540    11.9380    0.0000  top
+C7        10pF                    C_0402_1005Metric                                    25.6540    12.1920    0.0000  top
 C8        10pF                    C_0402_1005Metric                                    28.7020    14.2240    0.0000  top
 C9        1nF                     C_0402_1005Metric                                    33.2740    23.8760   90.0000  top
 C10       1nF                     C_0402_1005Metric                                    35.0520    20.5740  270.0000  top
