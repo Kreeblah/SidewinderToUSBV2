@@ -18,4 +18,12 @@ Gerbers and POS files (for component placement) are included in the Production d
 
 BOMs for various assembly houses are also included in the Production directory.
 
+Programming the board using the above combo of programmer and connector can be done with [AVRDUDE](https://www.nongnu.org/avrdude/):
+
+    pavr2cmd --prog-port
+
+This will return a device port path which can be used in this command to program your board:
+
+    avrdude -c stk500v2 -P YOURDEVICEPORTPATH -p atmega32u4 -U flash:w:YOURHEXFILE:i
+
 Note: I'm currently awaiting an initial run of assembled boards from PCBWay for testing to make sure I did the board layout properly.
