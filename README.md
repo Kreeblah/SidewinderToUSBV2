@@ -26,4 +26,6 @@ This will return a device port path which can be used in this command to program
 
     avrdude -c stk500v2 -P YOURDEVICEPORTPATH -p atmega32u4 -U flash:w:YOURHEXFILE:i
 
+Note: If the board is not receiving power via USB during programming, then the programmer will need to be configured to output 5V during the operation.  Additionally, attempting to program the board while a joystick is plugged in may fail.
+
 Note: I'm currently awaiting an initial run of assembled boards from PCBWay for testing to make sure I did the board layout properly.
