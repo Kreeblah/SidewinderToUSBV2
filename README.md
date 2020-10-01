@@ -22,9 +22,17 @@ Programming the board using the above combo of programmer and connector can be d
 
     pavr2cmd --prog-port
 
-This will return a device port path which can be used in this command to program your board:
+This will return a device port path which can be used in this command to program your board for bash, zsh, ksh, etc.:
 
-    avrdude -c stk500v2 -P YOURDEVICEPORTPATH -p atmega32u4 -U flash:w:YOURHEXFILE:i
+    avrdude -c stk500v2 -P $(pavr2cmd --prog-port) -p atmega32u4 -U flash:w:YOURHEXFILE:i
+
+Or, for csh:
+
+    avrdude -c stk500v2 -P `pavr2cmd --prog-port` -p atmega32u4 -U flash:w:YOURHEXFILE:i
+
+Or fish:
+
+    avrdude -c stk500v2 -P (pavr2cmd --prog-port) -p atmega32u4 -U flash:w:YOURHEXFILE:i
 
 Note: The board should be disconnected from USB and from your joystick while programming it.  To power it during programming, make sure your programmer is set to output 5V.
 
