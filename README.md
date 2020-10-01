@@ -18,21 +18,33 @@ Gerbers and POS files (for component placement) are included in the Production d
 
 BOMs for various assembly houses are also included in the Production directory.
 
-Programming the board using the above combo of programmer and connector can be done with [AVRDUDE](https://www.nongnu.org/avrdude/):
+Programming the board using the above combo of programmer and connector can be done with [AVRDUDE](https://www.nongnu.org/avrdude/).
+
+If you're using the Pololu programmer mentioned above, then in order to get the path to the port your programmer is on, you can do this:
 
     pavr2cmd --prog-port
 
-This will return a device port path which can be used in this command to program your board for bash, zsh, ksh, etc.:
+This will return a device port path which can be used as a parameter to AVRDUDE to program your board.
 
-    avrdude -c stk500v2 -P $(pavr2cmd --prog-port) -p atmega32u4 -U flash:w:YOURHEXFILE:i
+Regardless of which programmer you use, though, you'll need the path to your device, which you can then use with AVRDUDE:
+
+    avrdude -c YOUR_PROGRAMMER_TYPE -P YOUR_DEVICE_PORT_PATH -p atmega32u4 -U flash:w:YOUR_HEX_FILE:i
+
+If you're unsure of what value to use for `-c`, check with your programmer documentation.  If you need a list of what programmers are supported, you can use:
+
+    avrdude -c ?
+
+If you're using the Pololu programmer, you can combine the two above commands via a subcommand in bash, zsh, ksh, etc.:
+
+    avrdude -c stk500v2 -P $(pavr2cmd --prog-port) -p atmega32u4 -U flash:w:YOUR_HEX_FILE:i
 
 Or, for csh:
 
-    avrdude -c stk500v2 -P `pavr2cmd --prog-port` -p atmega32u4 -U flash:w:YOURHEXFILE:i
+    avrdude -c stk500v2 -P `pavr2cmd --prog-port` -p atmega32u4 -U flash:w:YOUR_HEX_FILE:i
 
 Or fish:
 
-    avrdude -c stk500v2 -P (pavr2cmd --prog-port) -p atmega32u4 -U flash:w:YOURHEXFILE:i
+    avrdude -c stk500v2 -P (pavr2cmd --prog-port) -p atmega32u4 -U flash:w:YOUR_HEX_FILE:i
 
 Note: The board should be disconnected from USB and from your joystick while programming it.  To power it during programming, make sure your programmer is set to output 5V.
 
