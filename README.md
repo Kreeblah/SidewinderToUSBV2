@@ -16,7 +16,7 @@ Schematic and PCB files are provided in KiCad format.
 
 Gerbers and POS files (for component placement) are included in the Production directory.
 
-BOMs for various assembly houses are also included in the Production directory.
+BOMs for various assembly houses are also included in the Production directory.  All of the parts listed in the BOMs are RoHS-compliant.
 
 Programming the board using the above combo of programmer and connector can be done with [AVRDUDE](https://www.nongnu.org/avrdude/).
 
