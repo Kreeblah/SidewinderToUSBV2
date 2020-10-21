@@ -1,5 +1,5 @@
 # SidewinderToUSBV2
-**NOTE:** This project is not currently functional.  I believe the hardware design to be correct, as extremely generic programs run correctly, but the existing adaptor software does not.  I suspect this has to do with not having access to the Teensy 2.0 bootloader (Halfkay) and a possible dependency on it, but I'm still investigating the issue.
+**NOTE:** This project is not currently functional.  Some simple applications run correctly, as do several bootloaders, but the existing adaptor software does not.  I'm currently troubleshooting this.
 
 Integrated Sidewinder adaptor with assembly files for various manufacturers.  This project originated as a combination of [the adapt-ffb-joy project](https://github.com/tloimu/adapt-ffb-joy) (minus the trim pots) with the [Teensy 2.0](https://www.pjrc.com/teensy/schematic.html) in order to remove the requirement for a comparatively expensive Teensy module and to make manufacture by a professional facility easier, with the intent of providing an open-source board that people can use to send off to have adaptors made.
 
