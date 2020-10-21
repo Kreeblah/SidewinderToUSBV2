@@ -1,4 +1,6 @@
 # SidewinderToUSBV2
+**NOTE:** This project is not currently functional.  I believe the hardware design to be correct, as extremely generic programs run correctly, but the existing adaptor software does not.  I suspect this has to do with not having access to the Teensy 2.0 bootloader (Halfkay) and a possible dependency on it, but I'm still investigating the issue.
+
 Integrated Sidewinder adaptor with assembly files for various manufacturers.  This project originated as a combination of [the adapt-ffb-joy project](https://github.com/tloimu/adapt-ffb-joy) (minus the trim pots) with the [Teensy 2.0](https://www.pjrc.com/teensy/schematic.html) in order to remove the requirement for a comparatively expensive Teensy module and to make manufacture by a professional facility easier, with the intent of providing an open-source board that people can use to send off to have adaptors made.
 
 Source code for the below hexes can be found at [the adapt-ffb-joy project](https://github.com/tloimu/adapt-ffb-joy) and [the sw3dprousb project](https://code.google.com/archive/p/sw3dprousb/).  Programming can be done using a [Tag-Connect TC2030-IDC-NL](https://www.tag-connect.com/product/tc2030-idc-nl) and an AVR programmer capable of programming a Microchip (formerly Atmel) ATmega32U4 such as the [Pololu AVR Programmer v2.1](https://www.pololu.com/product/3172).
@@ -47,5 +49,3 @@ Or fish:
     avrdude -c stk500v2 -P (pavr2cmd --prog-port) -p atmega32u4 -U flash:w:YOUR_HEX_FILE:i
 
 Note: The board should be disconnected from USB and from your joystick while programming it.  To power it during programming, make sure your programmer is set to output 5V.
-
-Note: I'm currently awaiting an initial run of assembled boards from PCBWay for testing to make sure I did the board layout properly.
