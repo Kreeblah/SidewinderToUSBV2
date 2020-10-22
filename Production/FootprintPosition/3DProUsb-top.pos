@@ -1,4 +1,4 @@
-### Module positions - created on Friday, September 25, 2020 at 12:28:27 AM ###
+### Module positions - created on Wednesday, October 21, 2020 at 08:04:38 PM ###
 ### Printed by Pcbnew version kicad (5.1.6-85-g2d1f6937d)
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -9,24 +9,25 @@ C3        0.1uF                   C_0402_1005Metric                             
 C4        0.1uF                   C_0402_1005Metric                                    21.3360     8.1280  270.0000  top
 C5        0.1uF                   C_0402_1005Metric                                    24.8920     8.1510  270.0000  top
 C6        0.1uF                   C_0402_1005Metric                                    18.0340    30.9880   90.0000  top
-C7        10pF                    C_0402_1005Metric                                    25.6540    12.1920    0.0000  top
+C7        10pF                    C_0402_1005Metric                                    25.6540    11.4300    0.0000  top
 C8        10pF                    C_0402_1005Metric                                    28.7020    14.2240    0.0000  top
 C9        1nF                     C_0402_1005Metric                                    33.2740    23.8760   90.0000  top
 C10       1nF                     C_0402_1005Metric                                    35.0520    20.5740  270.0000  top
+C11       1uF                     C_0402_1005Metric                                    12.1920    22.3520   90.0000  top
 D1        LED                     LED_0603_1608Metric                                  27.1780    20.5740  180.0000  top
 R1        22                      R_0402_1005Metric                                     9.3980    21.5900  180.0000  top
-R2        22                      R_0402_1005Metric                                    11.9150    23.1140  180.0000  top
+R2        22                      R_0402_1005Metric                                    11.9150    24.3840  180.0000  top
 R3        1K                      R_0402_1005Metric                                    29.6950    23.8760    0.0000  top
 R4        1K                      R_0402_1005Metric                                    28.1940    17.5260   90.0000  top
 R5        2200                    R_0402_1005Metric                                    37.5920    25.4000    0.0000  top
 R6        2200                    R_0402_1005Metric                                    39.1160    21.0820    0.0000  top
 R7        220                     R_1206_3216Metric                                    34.9220    16.5100    0.0000  top
-REF**     Fiducial_0.5mm_Mask1mm  Fiducial_0.5mm_Mask1mm                               23.6220    25.6540    0.0000  top
 REF**     Fiducial_0.5mm_Mask1mm  Fiducial_0.5mm_Mask1mm                               15.4940    25.6540    0.0000  top
-REF**     Fiducial_1.5mm_Mask3mm  Fiducial_1.5mm_Mask3mm                               55.6260     3.5560    0.0000  top
+REF**     Fiducial_0.5mm_Mask1mm  Fiducial_0.5mm_Mask1mm                               23.6220    25.6540    0.0000  top
 REF**     Fiducial_0.5mm_Mask1mm  Fiducial_0.5mm_Mask1mm                               15.4940    17.5260    0.0000  top
 REF**     Fiducial_1.5mm_Mask3mm  Fiducial_1.5mm_Mask3mm                                3.8100    28.7020    0.0000  top
 REF**     Fiducial_1.5mm_Mask3mm  Fiducial_1.5mm_Mask3mm                               55.6260    36.0680    0.0000  top
+REF**     Fiducial_1.5mm_Mask3mm  Fiducial_1.5mm_Mask3mm                               55.6260     3.5560    0.0000  top
 SW1       SW_Push_Dual            SW_SPST_Omron_B3FS-100xP                             35.5600     8.8900    0.0000  top
-X1        16MHz                   Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm    22.2820    14.0360  180.0000  top
+X1        16MHz                   Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm    22.3520    13.4620  180.0000  top
 ## End
