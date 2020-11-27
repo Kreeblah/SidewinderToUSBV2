@@ -1,5 +1,5 @@
 # SidewinderToUSBV2
-**NOTE:** This project is still in development and should not be considered ready for manufacture.
+**NOTE:** The only BOM which has been actually manufactured and tested is the DigiKey BOM with PCBWay.  The other BOMs are available for convenience/reference, but should be double-checked for accuracy and compliance with assembly house requirements.
 
 Integrated Sidewinder adaptor with assembly files for various manufacturers.  This project originated as a combination of [the adapt-ffb-joy project](https://github.com/tloimu/adapt-ffb-joy) (minus the trim pots) with the [Teensy 2.0](https://www.pjrc.com/teensy/schematic.html) in order to remove the requirement for a comparatively expensive Teensy module and to make manufacture by a professional facility easier, with the intent of providing an open-source board that people can use to send off to have adaptors made.
 
