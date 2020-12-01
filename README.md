@@ -62,7 +62,7 @@ Or fish:
 
 ## Using a bootloader
 
-If you'd prefer to use a bootloader rather than flashing a firmware file directly to the flash area, you can flash any ATMega32U4-compatible bootloader you like via an ISP.  This will allow for changing which firmware file is being used via the board's USB connection, rather than needing to connect an ISP again, but may result in longer boot times.  So far, only the LUFA CDC bootloader has been tested, which is included in the `Bootloader` directory of this project, but other bootloaders are likely to work.
+If you'd prefer to use a bootloader rather than flashing a firmware file directly to the flash area, you can flash any ATMega32U4-compatible bootloader you like via an ISP.  This will allow for changing which firmware file is being used via the board's USB connection, rather than needing to connect an ISP again, but may result in longer boot times.  So far, only the [LUFA](https://github.com/abcminiuser/lufa) CDC bootloader has been tested, which is included in the `Bootloader` directory of this project, but other bootloaders are likely to work.
 
 If using the LUFA CDC bootloader, when the board is plugged in, press the reset button to reset into the bootloader.  At this point, avrdude can be used to flash the firmware file of your choice (shown below as `YOUR_HEX_FILE`) with the following command:
 
