@@ -20,7 +20,7 @@ Gerbers and POS files (for component placement) are included in the Production d
 
 BOMs for various assembly houses are also included in the Production directory.  All of the parts listed in the BOMs are RoHS-compliant.
 
-Programming the board using the above combo of programmer and connector can be done with [AVRDUDE](https://www.nongnu.org/avrdude/).
+Programming the board using the above combo of programmer and connector can be done with [AVRDUDE](https://www.nongnu.org/avrdude/).  Fuses should be set to [low: 5F, high: 99, extended: C4, lockbit: FF](http://eleccelerator.com/fusecalc/fusecalc.php?chip=atmega32u4&LOW=5F&HIGH=99&EXTENDED=C4&LOCKBIT=FF).
 
 If you're using the Pololu programmer mentioned above, then in order to get the path to the port your programmer is on, you can do this:
 
@@ -38,14 +38,14 @@ If you're unsure of what value to use for `-c`, check with your programmer docum
 
 If you're using the Pololu programmer, you can combine the two above commands via a subcommand in bash, zsh, ksh, etc.:
 
-    avrdude -c stk500v2 -P $(pavr2cmd --prog-port) -p atmega32u4 -U flash:w:YOUR_HEX_FILE:i
+    avrdude -c stk500v2 -P $(pavr2cmd --prog-port) -p atmega32u4 -U lfuse:w:0x5f:m -U hfuse:w:0x99:m -U efuse:w:0xc4:m -U flash:w:YOUR_HEX_FILE:i
 
 Or, for csh:
 
-    avrdude -c stk500v2 -P `pavr2cmd --prog-port` -p atmega32u4 -U flash:w:YOUR_HEX_FILE:i
+    avrdude -c stk500v2 -P `pavr2cmd --prog-port` -p atmega32u4 -U lfuse:w:0x5f:m -U hfuse:w:0x99:m -U efuse:w:0xc4:m -U flash:w:YOUR_HEX_FILE:i
 
 Or fish:
 
-    avrdude -c stk500v2 -P (pavr2cmd --prog-port) -p atmega32u4 -U flash:w:YOUR_HEX_FILE:i
+    avrdude -c stk500v2 -P (pavr2cmd --prog-port) -p atmega32u4 -U lfuse:w:0x5f:m -U hfuse:w:0x99:m -U efuse:w:0xc4:m -U flash:w:YOUR_HEX_FILE:i
 
 Note: The board should be disconnected from USB and from your joystick while programming it.  To power it during programming, make sure your programmer is set to output 5V.
