@@ -69,3 +69,17 @@ If using the LUFA CDC bootloader, when the board is plugged in, press the reset 
     avrdude -p atmega32u4 -c avr109 -P YOUR_DEVICE_PORT -U flash:w:YOUR_HEX_FILE:i
 
 **Note:** `YOUR_DEVICE_PORT` is the port which the board shows up on when in bootloader mode.  On macOS, this will be a /dev/tty.usbmodem device (e.g. `/dev/tty.usbmodem14201`).  On Windows, it's likely to be a COM port.  On Linux, it should be somewhere in the /dev/ttyACM device list (e.g. `/dev/ttyACM0`).
+
+### LUFA CDC Compilation Options
+
+If you'd like to compile your own copy of the LUFA CDC bootloader, you can get the source code [here](https://github.com/abcminiuser/lufa).  The CDC bootloader code is in the `Bootloaders/CDC` directory, where there's a makefile.  If you have the AVR GCC toolchain installed, you can build the bootloader by editing the makefile to use the following settings (leaving the other settings as is):
+
+    MCU = atmega32u4
+    ARCH = AVR8
+    BOARD = TEENSY2
+    F_CPU = 16000000
+    F_USB = $(F_CPU)
+    FLASH_SIZE_KB = 32
+    BOOT_SECTION_SIZE_KB = 4
+
+At that point, if you have the AVR GCC toolchain installed properly, running `make` should go through the build and generate a file named `BootloaderCDC.hex` which you can flash as your bootloader.
