@@ -24,6 +24,8 @@ Gerbers and POS files (for component placement) are included in the Production d
 
 BOMs for various assembly houses are also included in the Production directory.  All of the parts listed in the BOMs are RoHS-compliant.
 
+Important components for users to be aware of are J1 (the micro USB port), J3 (the gameport), and SW1 (the reset button).  For people who have these built themselves, J2 is the block of pads used for programming the AVR.
+
 # Programming
 
 ## General
