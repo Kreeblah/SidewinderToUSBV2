@@ -13,7 +13,7 @@ To use with various Sidewinder devices, there are three .hex files provided.  On
 
 - 3DPro32u4-10.hex - Sidewinder Precision Pro, 3D Pro, 3D Pro Plus, or Force Feedback Pro (without force feedback support)
 - adaptffbjoy-r54.hex - Sidewinder Force Feedback Pro (with force feedback support)
-- adaptffbjoy-r54-patched.hex - Same as adaptffbjoy-r54.hex plus [some additional patches](https://github.com/Kreeblah/adapt-ffb-joy) (untested, as I don't have a Force Feedback Pro)
+- adaptffbjoy-r54-patched.hex - Same as adaptffbjoy-r54.hex plus [some additional patches](https://github.com/Kreeblah/adapt-ffb-joy) (FFB strength calculation and a fix for the shift button)
 - Wheel.hex - Sidewinder Force Feedback Wheel
 
 # Hardware
