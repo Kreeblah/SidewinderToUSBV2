@@ -84,4 +84,4 @@ If you'd like to compile your own copy of the LUFA CDC bootloader, you can get t
     FLASH_SIZE_KB = 32
     BOOT_SECTION_SIZE_KB = 4
 
-At that point, if you have the AVR GCC toolchain installed properly, running `make` should go through the build and generate a file named `BootloaderCDC.hex` which you can flash as your bootloader.
+At that point, if you have the AVR GCC toolchain installed properly, running `make` should go through the build and generate a file named `BootloaderCDC.hex` which you can flash as your bootloader using an ISP.
