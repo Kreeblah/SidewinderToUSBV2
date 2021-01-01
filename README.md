@@ -26,6 +26,11 @@ BOMs for various assembly houses are also included in the Production directory. 
 
 Important components for users to be aware of are J1 (the micro USB port), J3 (the gameport), and SW1 (the reset button).  For people who have these built themselves, J2 is the block of pads used for programming the AVR.
 
+# Known Issues
+
+- Sometimes, people see some jitter between a couple of values in the X and Y axes when the stick isn't being touched.  This is an issue that exists both with this adaptor and the original design, as it's a firmware issue.  These adaptors report exactly what the joystick sends for data, which includes that jitter that some people observe.  A fix for this would require a firmware update to account for it in software, at which point, it would be fixed in these adaptors and the original adaptors.
+- adaptffbjoy-r54.hex doesn't use the shift button properly.  It's supposed to act as a meta button to turn the eight other buttons into an effective sixteen buttons (one button with shift not pressed, and a different one with shift pressed), however it acts as a ninth button instead of a modifier for other buttons.  adaptffbjoy-r54-patched.hex includes a patch to fix this.
+
 # Programming
 
 ## General
