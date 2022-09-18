@@ -1,6 +1,7 @@
 (fp_lib_table
-  (lib (name Atmel)(type KiCad)(uri ${KIPRJMOD}/Atmel.pretty)(options "")(descr ""))
-  (lib (name Gameport)(type KiCad)(uri ${KIPRJMOD}/Gameport.pretty)(options "")(descr ""))
-  (lib (name TagConnect)(type KiCad)(uri ${KIPRJMOD}/TagConnect.pretty)(options "")(descr ""))
-  (lib (name USB)(type KiCad)(uri ${KIPRJMOD}/USB.pretty)(options "")(descr ""))
+  (lib (name "Atmel")(type "KiCad")(uri "${KIPRJMOD}/Atmel.pretty")(options "")(descr ""))
+  (lib (name "Gameport")(type "KiCad")(uri "${KIPRJMOD}/Gameport.pretty")(options "")(descr ""))
+  (lib (name "TagConnect")(type "KiCad")(uri "${KIPRJMOD}/TagConnect.pretty")(options "")(descr ""))
+  (lib (name "USB")(type "KiCad")(uri "${KIPRJMOD}/USB.pretty")(options "")(descr ""))
+  (lib (name "USB4105-GF-A")(type "KiCad")(uri "${KIPRJMOD}/USB4105-GF-A.pretty")(options "")(descr ""))
 )
