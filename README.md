@@ -1,4 +1,4 @@
-# SidewinderToUSBV2
+# SidewinderToUSBV2 (USB C version WIP)
 **NOTE:** The only BOM which has been actually manufactured and tested is the DigiKey BOM with PCBWay.  The other BOMs are available for convenience/reference, but should be double-checked for accuracy and compliance with assembly house requirements.
 
 **NOTE 2:** The current parts shortage means that the microcontroller used in this design is in short supply.  I have successfully tested the design with an ATmega32u4RC-MU substituted for the original ATmega32u4-MU.  No changes need to be made to the programming or board design to substitute the part in.
