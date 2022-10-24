@@ -1,36 +1,36 @@
-### Module positions - created on Saturday, September 17, 2022 at 07:41:52 PM ###
-### Printed by Pcbnew version (6.0.7-1)-1
+### Module positions - created on Sunday, October 23, 2022 at 11:20:56 PM ###
+### Printed by Pcbnew version (6.0.8-1)-1
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val                     Package                                                 PosX       PosY       Rot  Side
-C1        1uF                     C_0402_1005Metric                                    16.5100    36.3220   90.0000  top
-C2        1uF                     C_0402_1005Metric                                    17.7800    36.3220   90.0000  top
-C3        0.1uF                   C_0402_1005Metric                                    19.0500    36.3500   90.0000  top
-C4        0.1uF                   C_0402_1005Metric                                    20.3200    36.3500   90.0000  top
-C5        0.1uF                   C_0402_1005Metric                                    21.5900    36.3500   90.0000  top
-C6        0.1uF                   C_0402_1005Metric                                    18.0620    33.2740    0.0000  top
-C7        10pF                    C_0402_1005Metric                                    17.7800    19.0220  -90.0000  top
-C8        10pF                    C_0402_1005Metric                                    19.0500    22.0980  180.0000  top
-C9        1nF                     C_0402_1005Metric                                    26.1620    32.2580    0.0000  top
-C10       1nF                     C_0402_1005Metric                                    26.1620    24.6380    0.0000  top
-C11       1uF                     C_0402_1005Metric                                    13.9700    33.5280   90.0000  top
-D1        LED                     LED_0603_1608Metric                                  24.6380    36.5760  180.0000  top
-J1        USB4105-GF-A            GCT_USB4105-GF-A                                      2.7940    20.8280  -90.0000  top
-J2        AVR_Program             TAG_TC2030-IDC-NL                                    12.9540    11.4300    0.0000  top
+C1        1uF                     C_0402_1005Metric                                    17.7800    28.9840  -90.0000  top
+C2        1uF                     C_0402_1005Metric                                    18.7960    28.9840  -90.0000  top
+C3        0.1uF                   C_0402_1005Metric                                    19.8120    28.9840  -90.0000  top
+C4        0.1uF                   C_0402_1005Metric                                    20.8280    28.9840  -90.0000  top
+C5        0.1uF                   C_0402_1005Metric                                    21.8440    28.9840  -90.0000  top
+C6        0.1uF                   C_0402_1005Metric                                    18.7960    25.6540   90.0000  top
+C7        10pF                    C_0402_1005Metric                                    19.5580    14.6330  -90.0000  top
+C8        10pF                    C_0402_1005Metric                                    22.6060    13.3630  -90.0000  top
+C9        1nF                     C_0402_1005Metric                                    25.1460    21.4350   90.0000  top
+C10       1nF                     C_0402_1005Metric                                    26.6700    20.8280    0.0000  top
+C11       1uF                     C_0402_1005Metric                                    13.9700    19.5580  180.0000  top
+D1        LED                     LED_0603_1608Metric                                  26.0350    19.5580  180.0000  top
+J1        USB4105-GF-A            GCT_USB4105-GF-A                                      3.0480    21.3360  -90.0000  top
+J2        AVR_Program             TAG_TC2030-IDC-NL                                    12.0650    11.3030    0.0000  top
 J3        DA15-SL-25              ADAM_TECH_DA15-SL-25                                 32.2580    19.8120   90.0000  top
-R1        22                      R_0402_1005Metric                                    11.6840    21.5900  -90.0000  top
-R2        22                      R_0402_1005Metric                                    10.1600    23.6220  -90.0000  top
-R3        1K                      R_0402_1005Metric                                    24.1300    32.7660    0.0000  top
-R4        1K                      R_0402_1005Metric                                    27.4320    36.5760  180.0000  top
-R5        2200                    R_0402_1005Metric                                    26.1620    29.7180    0.0000  top
-R6        2200                    R_0402_1005Metric                                    26.1620    27.1780    0.0000  top
-R7        220                     R_1206_3216Metric                                    25.6540    22.8600    0.0000  top
-R8        5.1K                    R_0402_1005Metric                                     6.8580    26.9240    0.0000  top
-R9        5.1K                    R_0402_1005Metric                                     4.8260    14.7320    0.0000  top
+R1        22                      R_0402_1005Metric                                     9.6520    20.8280  180.0000  top
+R2        22                      R_0402_1005Metric                                     9.6520    21.8440  180.0000  top
+R3        1K                      R_0402_1005Metric                                    25.1460    23.3680   90.0000  top
+R4        1K                      R_0402_1005Metric                                    27.6860    17.9070  180.0000  top
+R5        2200                    R_0402_1005Metric                                    28.1940    22.9870   90.0000  top
+R6        2200                    R_0402_1005Metric                                    28.1940    21.0820  -90.0000  top
+R7        220                     R_1206_3216Metric                                    27.5590    15.0475  -90.0000  top
+R8        5.1K                    R_0402_1005Metric                                     7.1120    27.5590    0.0000  top
+R9        5.1K                    R_0402_1005Metric                                    10.7930    19.5580    0.0000  top
 REF**     Fiducial_1.5mm_Mask3mm  Fiducial_1.5mm_Mask3mm                               39.3700     2.7940    0.0000  top
 REF**     Fiducial_1.5mm_Mask3mm  Fiducial_1.5mm_Mask3mm                                3.8100    28.7020    0.0000  top
 REF**     Fiducial_1.5mm_Mask3mm  Fiducial_1.5mm_Mask3mm                               39.1160    36.8300    0.0000  top
-SW1       SW_Push_Dual            SW_SPST_Omron_B3FS-100xP                             21.8440     4.0640    0.0000  top
-U1        ATMEGA32U4-MU           QFN50P700X700X100-45N                                19.0660    27.9560    0.0000  top
-X1        16MHz                   Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm    20.7580    19.8120  180.0000  top
+SW1       SW_Push_Dual            SW_SPST_Omron_B3FS-100xP                             22.4790     4.1910    0.0000  top
+U1        ATMEGA32U4-MU           QFN50P700X700X100-45N                                20.3200    20.0660    0.0000  top
+X1        16MHz                   Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm    23.7490     9.7790  180.0000  top
 ## End

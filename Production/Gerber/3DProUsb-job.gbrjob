@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(6.0.7-1)-1"
+      "Version": "(6.0.8-1)-1"
     },
-    "CreationDate": "2022-09-17T19:41:31-07:00"
+    "CreationDate": "2022-10-23T23:20:27-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
+      "PadToPad": 0.15,
+      "PadToTrack": 0.15,
       "TrackToTrack": 0.15,
       "MinLineWidth": 0.2,
       "TrackToRegion": 0.508,
@@ -95,24 +95,29 @@
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {
