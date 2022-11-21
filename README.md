@@ -16,13 +16,14 @@ To use with various Sidewinder devices, there are three .hex files provided.  On
 - 3DPro32u4-10.hex - Sidewinder Precision Pro, 3D Pro, 3D Pro Plus, or Force Feedback Pro (without force feedback support)
 - adaptffbjoy-r54.hex - Sidewinder Force Feedback Pro (with force feedback support)
 - adaptffbjoy-r54-patched.hex - Same as adaptffbjoy-r54.hex plus [some additional patches](https://github.com/Kreeblah/adapt-ffb-joy) (FFB strength calculation and a fix for the shift button)
+- adaptffbjoy-r54-JayBee.hex - Another alternative patch set for adaptffbjoy-r54.hex, sourced from https://github.com/JayBee-git/adapt-ffb-joy
 - Wheel.hex - Sidewinder Force Feedback Wheel
 
 # Hardware
 
 Schematic and PCB files for the board are provided in KiCad format.
 
-Gerbers and POS files (for component placement) are included in the Production directory.
+Gerbers and POS files (for component placement) are included in the Production directory.  Note that the USB lines were calculated assuming 1 oz copper thickness.
 
 BOMs for various assembly houses are also included in the Production directory.  All of the parts listed in the BOMs are RoHS-compliant.
 
